@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#taskInput {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+button.add {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #008CBA;
+    color: white;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+#taskList li {
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+#taskList li button.remove {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F44336;
+    color: white;
+    right: 1px;
+}
